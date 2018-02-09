@@ -34,6 +34,6 @@ export default {
   height: 50vh;
   width: 50vw;
   margin: 10vh auto 0 auto;
-  padding: 2%;
+  padding: 1% 2% 2% 2%;
 }
 </style>

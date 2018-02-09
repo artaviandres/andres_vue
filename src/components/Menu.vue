@@ -3,6 +3,7 @@
         <a href="/">home</a>
         <a href="/mywork" class="margin">my work</a>
         <a href="/contactme" class="margin">contact me</a>
+        <a href="/blog" class="margin">blog</a>
     </div>
 </template>
 
