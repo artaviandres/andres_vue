@@ -18,6 +18,7 @@
         cursor: pointer;
         text-decoration: none;
         color: inherit;
+        font-size: 16px;
     }
     a:hover {
         text-decoration: underline;

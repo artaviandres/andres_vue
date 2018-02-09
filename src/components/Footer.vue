@@ -50,6 +50,7 @@
         bottom: 0;
         height: 70px;
         width: 100vw;
+        padding-bottom: 120px;
     }
 
     a {
