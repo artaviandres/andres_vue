@@ -33,7 +33,7 @@ export default {
   border: 1px rgba(0,0,0,0.3) solid;
   height: 50vh;
   width: 70vw;
-  margin: 10vh auto 0 auto;
+  margin: 15vh auto 0 auto;
   padding: 1% 2% 2% 2%;
 }
 

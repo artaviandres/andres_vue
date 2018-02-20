@@ -13,8 +13,7 @@
             </span>,
             <span class="angular">
                 Angular
-            </span>
-        <br />and many others.
+            </span>and many others.
         </p>
     </div>
 </template>
@@ -34,5 +33,8 @@
     }
     .angular {
         color: #f44336;
+    }
+    h1 {
+        margin-top: 12%;
     }
 </style>
