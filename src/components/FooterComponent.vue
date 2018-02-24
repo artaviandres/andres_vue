@@ -5,22 +5,22 @@
                 <icon name="facebook-square" scale="1.8" />
             </Icon>
         </a>
-        <a href="https://instagram.com/artaviandres" target="_blank">
+        <a href="https://instagram.com/artaviandres" target="_blank" class="margin">
             <Icon>
                 <icon name="instagram" scale="1.8" />
             </Icon>
         </a>
-        <a href="https://twitter.com/Artvavia" target="_blank">
+        <a href="https://twitter.com/Artvavia" target="_blank" class="margin">
             <Icon>
                 <icon name="twitter-square" scale="1.8" />
             </Icon>
         </a>
-        <a href="https://www.linkedin.com/in/artaviandres/" target="_blank">
+        <a href="https://www.linkedin.com/in/artaviandres/" target="_blank" class="margin">
             <Icon>
                 <icon name="linkedin" scale="1.8" />
             </Icon>
         </a>
-        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=artaviandres@gmail.com" target="_blank">
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=artaviandres@gmail.com" target="_blank" class="margin">
             <Icon>
                 <icon name="envelope" scale="1.6" />
             </Icon>
@@ -37,7 +37,7 @@
     import 'vue-awesome/icons/envelope'
 
     export default {
-        name: "Footer",
+        name: "FooterComponent",
         components: {
             Icon
         }
@@ -55,8 +55,11 @@
 
     a {
         cursor: pointer;
-        margin-left: 3%;
         text-decoration: none;
         color: inherit;
+    }
+
+    .margin {
+        margin-left: 7%;
     }
 </style>

@@ -1,20 +1,20 @@
 <template>
   <div id="app">
-    <Menu />
+    <MenuComponent />
     <router-view class="container"></router-view>
-    <Footer />
+    <FooterComponent />
   </div>
 </template>
 
 <script>
-import Footer from './components/Footer';
-import Menu from './components/Menu';
+import FooterComponent from './components/FooterComponent';
+import MenuComponent from './components/MenuComponent';
 
 export default {
   name: 'app',
   components: {
-    Footer,
-    Menu
+    FooterComponent,
+    MenuComponent
   }
 }
 </script>
@@ -31,10 +31,16 @@ export default {
 
 .container {
   border: 1px rgba(0,0,0,0.3) solid;
-  height: 50vh;
-  width: 70vw;
-  margin: 15vh auto 0 auto;
-  padding: 1% 2% 2% 2%;
+  height: 60vh;
+  width: 90vw;
+  margin: 9vh auto 0 auto;
+  padding: 11% 2% 2% 2%;
+}
+
+@media(min-width: 420px) {
+  .container {
+    width: 80vw;
+  }
 }
 
 @media(min-width: 950px) {

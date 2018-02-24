@@ -9,7 +9,7 @@
 
 <script>
     export default {
-        name: 'menu'
+        name: 'MenuComponent'
     }
 </script>
 
@@ -24,6 +24,6 @@
         text-decoration: underline;
     }
     .margin {
-        margin-left: 3%;
+        margin-left: 5%;
     }
 </style>
